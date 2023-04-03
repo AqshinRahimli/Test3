@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+
+    th {
+        padding: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #ddd;
+    }
+
+    tr {
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:576px) {
+    table{
+        margin-top: 30px;
+
+        thead{
+            tr{
+                th{
+                    margin-left: 10px;
+                }
+            }
+        }
+        tbady{
+            tr{
+                td{
+                    margin-left: 20px;
+button{
+    
+}
+                }
+            }
+        }
+    }
+   
+}

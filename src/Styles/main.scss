@@ -1,0 +1,13 @@
+// base
+@import "../Styles/base/index.scss";
+
+// pages
+@import "./Pages/Students.scss";
+@import "./Pages/Payments.scss";
+
+
+// components
+@import "../Styles/Components/Header.scss";
+@import "../Styles/Components/Input.scss";
+@import "../Styles/Components/Table.scss";
+@import "../Styles/Components/Button.scss";

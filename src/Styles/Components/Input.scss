@@ -1,0 +1,101 @@
+.input {
+    input {
+        width: 450px;
+        height: 50px;
+        border-radius: 0px 8px 8px 0px;
+        text-align: center;
+    }
+}
+
+.search-input {
+    margin-top: 15px;
+    display: flex;
+    justify-content: end;
+
+    input {
+        width: 160px;
+        height: 40px;
+        border-radius: 8px 0px 0px 8px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+.form {
+
+    input {
+        width: 450px;
+        height: 40px;
+        border-radius: 8px;
+        padding-left: 10px;
+    }
+
+    .cart-check {
+
+        input {
+            border: 1px solid black;
+            font-size: 20px;
+
+        }
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:576px) {
+
+    .input {
+        display: block;
+
+        input {
+            width: 120px;
+            height: 30px;
+            border-radius: 0px 8px 8px 0px;
+            text-align: center;
+        }
+    }
+
+    .search-input {
+        margin-top: 15px;
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .search-input {
+        justify-content: center;
+    }
+
+    .form {
+        ul {
+            h4 {
+                margin-top: 20px;
+            }
+
+            input {
+                width: 250px;
+                height: 30px;
+                margin-top: 10px;
+            }
+        }
+
+        .cart-check {
+            input {
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:576px) and (max-width:992px){
+    .form{
+        input{
+            width: 280px;
+            height: 40px;
+        }
+
+    }
+    .registration{
+        input{
+            width: 280px;
+            height: 40px; 
+        }
+    }
+}

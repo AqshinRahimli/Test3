@@ -1,0 +1,91 @@
+.registration {
+    border: 1px solid;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 15px;
+
+    h2 {
+        font-size: 25px;
+        font-weight: 800;
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .number {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+        .number-main {
+            background-color: gray;
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            border-radius: 8px 0px 0px 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+
+    .fullname {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        input {
+            border-radius: 8px;
+        }
+
+        h2 {
+            display: flex;
+        }
+
+        .input-name {
+            input {
+                margin-top: 10px;
+            }
+        }
+
+        .input-surname {
+            input {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.filter {
+    h4 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-width:350px) and (max-width:576px){
+    .registration{
+        h2{
+            font-size: 18px;
+        }
+
+        .number{
+            .number-main{
+                width: 40px;
+                height: 30px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:576px) and (max-width:992px){
+    .registration{
+        font-size: 20px;
+        .number{
+            .number-main{
+                width: 60px;
+               height: 40px;
+            }
+        }
+    }
+   
+}

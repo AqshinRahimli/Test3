@@ -1,0 +1,60 @@
+header {
+    width: 100%;
+    background-color: black;
+
+    .header {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            height: 50px;
+            width: 50px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                margin-left: 30px;
+                font-size: 18px;
+
+                a {
+                    color: #fff;
+                }
+                a:hover{
+                    color: orange;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:576px) {
+    .header {
+
+        .header-left {
+            justify-content: start;
+
+            ul {
+                li {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .logo {
+            width: 30px;
+            height: 30px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
